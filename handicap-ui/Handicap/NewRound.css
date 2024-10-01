@@ -1,0 +1,11 @@
+.newRound-outer p{
+    margin: 0;
+}
+.newRound-radio input{
+    width: 20px; 
+
+}
+.newRound-input{
+    width: 150px;
+    margin-top: 0;
+}

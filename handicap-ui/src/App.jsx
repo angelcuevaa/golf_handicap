@@ -8,6 +8,8 @@ import Nav from './Nav'
 import { AuthContext } from './Context/AuthContext'
 import { Protected } from './Protected'
 import Home from './home'
+import Handicap from '../Handicap/Handicap'
+import NewRound from '../Handicap/NewRound'
 
 function App() {
   
@@ -27,6 +29,10 @@ function App() {
     {
       path: "/signup",
       element: <Signup/>
+    },
+    {
+      path: "/handicap", 
+      element: <NewRound/>
     }
   ])
 
